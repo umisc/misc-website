@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import 'typeface-source-code-pro'
-import '../styles/layout.sass'
 
 import Header from "./header"
 
