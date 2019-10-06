@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Particles from 'react-particles-js'
 
 import '../styles/index.sass'
+import 'typeface-oswald'
 import logo_svg from '../images/miscwhite.png'
 
 const IndexPage = () => (
@@ -16,11 +17,13 @@ const IndexPage = () => (
             <div className="banner-arrow">
                   <Particles params={particlesjs_config} className="bg-particles" />
             </div>
-            <div className="logo-title-container">
-                <div style={{ background: `url('${logo_svg}')` }}
-                        className="misc-logo"></div>
-                <div className="subtitle">A Community of White Hat Hackers.</div>
-            </div>
+            <div style={{ background: `url('${logo_svg}')` }}
+                    className="misc-logo"></div>
+        </div>
+        <div className="titles-container">
+            <div className="title">University of Melbourne Information Security Club</div>
+            <div className="subtitle">A Community of White Hat Hackers.</div>
+            <button className="join-button">guest@misc:~ $ <strong>join</strong></button>
         </div>
     </div>
   </Layout>
