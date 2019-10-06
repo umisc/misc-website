@@ -1,0 +1,59 @@
+@import 'vars'
+
+header
+  padding: 0
+  margin: 0
+  a
+    color: $white
+    text-decoration: none
+
+  .header-title
+    margin: 0
+    margin-top: 40px
+    width: 100%
+    text-align: center
+
+  .header-nav
+    width: 100%
+    display: flex
+    flex-direction: row
+    justify-content: center
+    padding: 0
+    li
+      list-style: none
+      font-weight: 500
+      font-size: 12px
+      a
+        padding: 4px 38px
+        border-bottom: 2px solid $grey
+        margin: 0 20px
+
+.hvr-underline-from-center 
+  display: inline-block
+  vertical-align: middle
+  -webkit-transform: perspective(1px) translateZ(0)
+  transform: perspective(1px) translateZ(0)
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0)
+  position: relative
+  overflow: hidden
+
+.hvr-underline-from-center:before 
+  content: ""
+  position: absolute
+  z-index: -1
+  left: 51%
+  right: 51%
+  bottom: 0
+  background: $blue
+  height: 2px
+  -webkit-transition-property: left, right
+  transition-property: left, right
+  -webkit-transition-duration: 0.2s
+  transition-duration: 0.2s
+  -webkit-transition-timing-function: ease-out
+  transition-timing-function: ease-out
+
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before 
+  left: 0
+  right: 0
+
