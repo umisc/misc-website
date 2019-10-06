@@ -1,12 +1,16 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
+import Header from '../components/header.js'
+
+import '../styles/blog.sass'
 
 export default function Template({ data }) {
     const { markdownRemark: post } = data
     return (
         <div className="blog-post-container">
             <Helmet title={`MISC - ${post.frontmatter.title}`} />
+            <Header />
             <div className="blog-post">
                 <h1>{post.frontmatter.title}</h1>
                 <small>{post.frontmatter.date}</small>
