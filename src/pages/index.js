@@ -7,7 +7,7 @@ import Particles from 'react-particles-js'
 
 import '../styles/index.sass'
 import 'typeface-oswald'
-import logo_svg from '../images/miscwhite.png'
+import logo_svg from '../images/umisc_logo_white.svg'
 
 const IndexPage = () => (
   <Layout>

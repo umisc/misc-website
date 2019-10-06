@@ -6,6 +6,7 @@ import Header from '../components/header.js'
 import '../styles/prism-onedark.css'
 import 'prismjs/plugins/command-line/prism-command-line.css'
 import '../styles/blog.sass'
+import 'typeface-fira-sans'
 
 export default function Template({ data }) {
     const { markdownRemark: post } = data
