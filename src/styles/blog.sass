@@ -1,7 +1,26 @@
 @import 'vars'
+@import 'md'
 
 .blog-post-container
   width: 100%
   height: 100%
   background: $dark-grey
   overflow: auto
+  .blog-post
+    max-width: 70%
+    margin-left: auto
+    margin-right: auto
+    word-wrap: break-word
+    .blog-header-separator
+      color: $blue
+      margin: 10px 0
+    .blog-post-header
+      .title
+        font-family: Oswald
+      .author
+        .author-name
+          color: $blue
+      .date
+        float: right
+    .blog-post-content
+      word-wrap: break-word

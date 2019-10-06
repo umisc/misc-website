@@ -3,6 +3,8 @@ import { graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import Header from '../components/header.js'
 
+import '../styles/prism-onedark.css'
+import 'prismjs/plugins/command-line/prism-command-line.css'
 import '../styles/blog.sass'
 
 export default function Template({ data }) {
@@ -12,8 +14,14 @@ export default function Template({ data }) {
             <Helmet title={`MISC - ${post.frontmatter.title}`} />
             <Header />
             <div className="blog-post">
-                <h1>{post.frontmatter.title}</h1>
-                <small>{post.frontmatter.date}</small>
+                <br />
+                <div className="blog-post-header">
+                    <h1 className="title">{post.frontmatter.title}</h1>
+                    <span className="author">By <span className="author-name">{post.frontmatter.author}</span></span>
+                    <span className="date">{post.frontmatter.date}</span>
+                </div>
+                <hr className="blog-header-separator"/>
+                <br />
                 <div
                     className="blog-post-content"
                     dangerouslySetInnerHTML={{ __html: post.html }}
@@ -28,7 +36,7 @@ export const postQuery = graphql`
         markdownRemark(frontmatter: { path: { eq: $path } }) {
               html
               frontmatter {
-                    date(formatString: "YYYY MMMM DD")
+                    date(formatString: "MMMM DD, YYYY")
                     path
                     author
                     title
