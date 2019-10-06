@@ -12,13 +12,14 @@ const IndexPage = () => (
   <Layout>
     <div className="index-container">
         <SEO title="Home" />
-        <div className="misc-logo-wrapper">
-            <div style={{ background: `url('${logo_svg}')` }}
-                    className="misc-logo"></div>
-        </div>
         <div className="banner-arrow-wrapper">
             <div className="banner-arrow">
                   <Particles params={particlesjs_config} className="bg-particles" />
+            </div>
+            <div className="logo-title-container">
+                <div style={{ background: `url('${logo_svg}')` }}
+                        className="misc-logo"></div>
+                <div className="subtitle">A Community of White Hat Hackers.</div>
             </div>
         </div>
     </div>
@@ -35,7 +36,7 @@ const particlesjs_config = {
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#73d6e1"
     },
     "shape": {
       "type": "circle",
@@ -70,7 +71,7 @@ const particlesjs_config = {
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#ffffff",
+      "color": "#73d6e1",
       "opacity": 0.4,
       "width": 1
     },
