@@ -19,8 +19,8 @@ const Header = () => (
                     </Link>
                 </li>
                 <li>
-                    <Link to="/committee" className="hvr-underline-from-center committee-link">
-                        COMMITTEE
+                    <Link to="/news" className="hvr-underline-from-center news-link">
+                        NEWS
                     </Link>
                 </li>
                 <li>

@@ -12,6 +12,9 @@ header
     margin-top: 40px
     width: 100%
     text-align: center
+    +break-small
+      margin-left: 10%
+      width: 80%
 
   .header-nav
     width: 100%
@@ -19,6 +22,9 @@ header
     flex-direction: row
     justify-content: center
     padding: 0
+    +break-small
+      width: 80%
+      margin-left: 10%
     li
       list-style: none
       font-weight: 500
@@ -27,6 +33,8 @@ header
         padding: 4px 38px
         border-bottom: 2px solid $grey
         margin: 0 20px
+        +break-small
+          padding: 4px 12px
 
 .hvr-underline-from-center 
   display: inline-block

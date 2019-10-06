@@ -26,7 +26,7 @@ html
       height: 100%
       background: $dark-grey
       +break-medium
-        clip-path: polygon(50% 100%, -180% 0, 280% 0)
+        clip-path: polygon(50% 100%, -200% 0, 300% 0)
       .bg-particles
         position: absolute
         width: 100%
@@ -49,9 +49,9 @@ html
     background-size: contain !important
     background-repeat: no-repeat !important
     +break-small
-      width: 400px
-      height: 400px
-      top: 30%
+      width: 300px
+      height: 300px
+      top: 38%
 
   .titles-container
     position: absolute
@@ -61,7 +61,8 @@ html
     transform: translateX(-50%)
     color: $white
     +break-small
-      width: 440px
+      width: 80%
+      margin-left: 50%
     .title, .subtitle
       text-align: center
     .title
@@ -72,7 +73,7 @@ html
       font-family: Oswald
       line-height: 1.1em
       +break-small
-        font-size: 1.8em
+        font-size: 1.4em
     .subtitle
       margin-top: 14px
       font-size: 14px
@@ -87,13 +88,13 @@ html
       transform: translateX(-50%)
       font-weight: bold
       pointer-events: all
-      animation: glitch
+      animation: join-glitch
       animation-duration: 4s
       animation-iteration-count: infinite
       &:hover
           cursor: pointer
 
-@keyframes glitch
+@keyframes join-glitch
   2%
     box-shadow: 2px 1px 2px #65f378, -2px 1px 2px #fe6865
     transform: translateX(-51%) scale(0.99, 0.98)
