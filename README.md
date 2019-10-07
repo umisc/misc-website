@@ -92,9 +92,8 @@ A hot-reloading development environment should now be accessible at `localhost:8
 
 ## 👨‍💻  Contributors
 
-Main contributor and maintainer - [Joseph](https://github.com/josephsurin) (joseph#8210 on Discord)
-
-Logo Design - Shevon Mendis
+- Main contributor and maintainer - [Joseph Surin](https://github.com/josephsurin) (joseph#8210 on Discord)
+- Logo Design - [Shevon Mendis](https://bookofshevon.com/)
 
 ## 🧐 Issues
 
