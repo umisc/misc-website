@@ -43,6 +43,12 @@ module.exports = {
                     options: {
                         noInlineHighlight: true
                     }
+                },
+                {
+                    resolve: 'gatsby-remark-katex',
+                    options: {
+                        displayMode: false
+                    }
                 }
             ]
         }

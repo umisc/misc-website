@@ -1,15 +1,17 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import Header from '../components/header.js'
 
 import '../styles/prism-onedark.css'
 import 'prismjs/plugins/command-line/prism-command-line.css'
+import 'katex/dist/katex.min.css'
 import '../styles/blog.sass'
 import 'typeface-fira-sans'
 
-export default function Template({ data }) {
+export default function Template({ data, pageContext }) {
     const { markdownRemark: post } = data
+    const { prev, next } = pageContext
     return (
         <div className="blog-post-container">
             <Helmet title={`MISC - ${post.frontmatter.title}`} />
@@ -27,6 +29,27 @@ export default function Template({ data }) {
                     className="blog-post-content"
                     dangerouslySetInnerHTML={{ __html: post.html }}
                 />
+                <hr />
+                <div className="blog-post-footer">
+                    {prev && (
+                        <Link
+                            to={prev.frontmatter.path}
+                            rel="prev"
+                            className="prev-link"
+                        >
+                            ← {prev.frontmatter.title}
+                        </Link>
+                    )}
+                    {next && (
+                        <Link
+                            to={next.frontmatter.path}
+                            rel="next"
+                            className="next-link"
+                        >
+                            {next.frontmatter.title} →
+                        </Link>
+                    )}
+                </div>
             </div>
         </div>
     )
