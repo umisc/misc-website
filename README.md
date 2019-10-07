@@ -10,7 +10,7 @@ Redesign of the University of Melbourne Information Security Club website.
 - Expand the club's brand image
 - Provide information about the club and how to join
 - Provide information about all MISC events
-- Be the home of "challenge of the week" posts and writeups [planned]
+- Be the home of "challenge of the week" posts and writeups [soon™]
 
 ### Development and Maintenance
 
@@ -89,3 +89,11 @@ A hot-reloading development environment should now be accessible at `localhost:8
 4.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where site (metadata) like the site title and description is specified, and where Gatsby plugins can be include from. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
 5.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process. Current usage of this file includes building pages from the markdown files in the `posts` directory.
+
+## 👨‍💻  Contributors
+
+Main contributor and maintainer - [Joseph](https://github.com/josephsurin) (joseph#8210 on Discord)
+
+## 🧐 Issues
+
+Any issues should be reported to Joseph via Discord or Slack or by making an issue in this repository.
