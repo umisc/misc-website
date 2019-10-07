@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
+import Header from '../components/header.js'
 
 const NewsPage = ({ data }) => {
     const { edges: posts } = data.allMarkdownRemark
     return (
         <div className="news-page-container">
+            <Header />
             <Helmet title="MISC - News" />
             {posts.map(({ node: post }) => {
                 return (
