@@ -11,6 +11,7 @@ import logo_svg from '../images/umisc_logo_white.svg'
 
 const IndexPage = () => (
   <Layout>
+    <div className="index-background"></div>
     <div className="index-container">
         <SEO title="Home" />
         <div className="banner-arrow-wrapper">
