@@ -1,10 +1,10 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center"> <img alt="Gatsby" src="src/images/umisc_logo_black.png" width="150" /> </p>
-<h1 align="center">
-    MISC Website
-</h1>
+<div align="center">
+    <img alt="MISC" src="src/images/umisc_logo_black.png" width="150" />
+    <h2>MISC Website</h2>
 
-Redesign of the University of Melbourne Information Security Club website.
+![landing-page-preview](./landing-page.png)
+</div>
+
 
 #### Purposes:
 - Expand the club's brand image
@@ -93,7 +93,7 @@ A hot-reloading development environment should now be accessible at `localhost:8
 ## 👨‍💻  Contributors
 
 - Main contributor and maintainer - [Joseph Surin](https://github.com/josephsurin) (joseph#8210 on Discord)
-- Logo Design - [Shevon Mendis](https://bookofshevon.com/)
+- MISC Logo Design - [Shevon Mendis](https://bookofshevon.com/)
 
 ## 🧐 Issues
 
