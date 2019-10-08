@@ -15,8 +15,9 @@ const IndexPage = (props) => {
             <SEO title="Home" />
             <Banner />
             <div className="index-container">
-                <div style={{ background: `url('${logo_svg}')` }}
-                    className="misc-logo"></div>
+                <div className="misc-logo-container">
+                    <img src={logo_svg} />
+                </div>
                 <div className="titles-container">
                     <div className="title">University of Melbourne Information Security Club</div>
                     <div className="subtitle">A Community of White Hat Hackers.</div>
