@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import { Helmet } from 'react-helmet'
-import Header from '../components/header.js'
+import SEO from '../components/seo'
+import Header from '../components/header'
 
 import '../styles/prism-onedark.css'
 import 'prismjs/plugins/command-line/prism-command-line.css'
@@ -14,7 +14,7 @@ export default function Template({ data, pageContext }) {
     const { prev, next } = pageContext
     return (
         <div className="blog-post-container">
-            <Helmet title={`MISC - ${post.frontmatter.title}`} />
+            <SEO title={`MISC - ${post.frontmatter.title}`} />
             <Header />
             <div className="blog-post">
                 <br />

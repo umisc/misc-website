@@ -1,4 +1,4 @@
-import { Link } from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import React from 'react'
 
 import '../styles/header.sass'
@@ -7,26 +7,25 @@ const Header = () => (
     <header>
         <div className="header-container">
             <h4 className="header-title">
-                <Link to="/" className="header-link">
+                <AniLink fade to="/" className="header-link">
             UNIVERSITY OF MELBOURNE INFORMATION SECURITY CLUB
-                </Link>
+                </AniLink>
             </h4>
 
             <ul className="header-nav">
                 <li>
-                    <Link to="/about" className="hvr-underline-from-center about-link">
-                        ABOUT
-                    </Link>
+                    <AniLink fade to="/about" activeClassName="active" className="hvr-underline-from-center about-link" >ABOUT
+                    </AniLink>
                 </li>
                 <li>
-                    <Link to="/news" className="hvr-underline-from-center news-link">
+                    <AniLink fade to="/news" activeClassName="active" className="hvr-underline-from-center news-link">
                         NEWS
-                    </Link>
+                    </AniLink>
                 </li>
                 <li>
-                    <Link to="/events" className="hvr-underline-from-center events-link">
+                    <AniLink fade to="/events" activeClassName="active" className="hvr-underline-from-center events-link">
                         EVENTS
-                    </Link>
+                    </AniLink>
                 </li>
             </ul>
 

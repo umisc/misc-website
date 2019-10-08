@@ -3,15 +3,18 @@ import React from 'react'
 import Particles from 'react-particles-js'
 import '../styles/banner.sass'
 
-const Banner = () => (
-    <div className="banner-background">
-        <div className="banner-arrow-wrapper">
-            <div className="banner-arrow">
-                <Particles params={particlesjs_config} className="bg-particles" />
+const Banner = (props) => {
+    let class_suffix = props.class_suffix || ''
+    return (
+        <div className={"banner-background banner-background-" + class_suffix}>
+            <div className={"banner-arrow-wrapper banner-arrow-wrapper-" + class_suffix}>
+                <div className={"banner-arrow banner-arrow-" + class_suffix}>
+                    <Particles params={particlesjs_config} className="bg-particles" />
+                </div>
             </div>
         </div>
-    </div>
-)
+    )
+}
 
 const particlesjs_config = {
     'particles': {

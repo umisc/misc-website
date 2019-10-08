@@ -1,6 +1,7 @@
 @import 'vars'
 
 .banner-background
+  overflow: hidden
   height: 100%
   width: 100%
   position: absolute
@@ -38,3 +39,10 @@
         z-index: -1
         pointer-events: all
 
+.banner-background
+  .banner-arrow-wrapper-about
+    height: 120%
+    filter: drop-shadow(0px 0px 8px rgba(18,23,24,0.9))
+    .banner-arrow
+      .bg-particles
+        display: none
