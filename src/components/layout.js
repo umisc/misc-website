@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 
-import 'typeface-source-code-pro'
-
 import Header from './header'
 
 const Layout = ({ children }) => {

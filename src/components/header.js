@@ -7,23 +7,23 @@ const Header = () => (
     <header>
         <div className="header-container">
             <h4 className="header-title">
-                <AniLink fade to="/" className="header-link">
+                <AniLink fade duration={0.2} to="/" className="header-link">
             UNIVERSITY OF MELBOURNE INFORMATION SECURITY CLUB
                 </AniLink>
             </h4>
 
             <ul className="header-nav">
                 <li>
-                    <AniLink fade to="/about" activeClassName="active" className="hvr-underline-from-center about-link" >ABOUT
+                    <AniLink fade duration={0.2} to="/about" activeClassName="active" className="hvr-underline-from-center about-link" >ABOUT
                     </AniLink>
                 </li>
                 <li>
-                    <AniLink fade to="/news" activeClassName="active" className="hvr-underline-from-center news-link">
+                    <AniLink fade duration={0.2} to="/news" activeClassName="active" className="hvr-underline-from-center news-link">
                         NEWS
                     </AniLink>
                 </li>
                 <li>
-                    <AniLink fade to="/events" activeClassName="active" className="hvr-underline-from-center events-link">
+                    <AniLink fade duration={0.2} to="/events" activeClassName="active" className="hvr-underline-from-center events-link">
                         EVENTS
                     </AniLink>
                 </li>

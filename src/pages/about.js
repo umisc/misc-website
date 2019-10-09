@@ -11,7 +11,7 @@ const AboutPage = () => {
     return (
         <Layout>
             <SEO title="About" />
-            <Banner class_suffix="about"/>
+            <Banner class_suffix="deep"/>
             <div className="about-container">
                 <div className="about-content">
                     <h1>SECURE. PROTECT. INFILTRATE.</h1>
@@ -27,10 +27,14 @@ const AboutPage = () => {
                         <li>To connect with industry professionals such as “Red Teamers”, “Blue Teamers”, journalists, engineers, etc. through guest lectures</li>
                         <li>To prepare club members with the skills and network required to pursue a career in cybersecurity</li>
                     </ul>
+                    <h1>Our Committee</h1>
+                    <p> Information about our current and past committees can be found <a href="/committee">here.</a></p>
                     <h1>Our Sponsors</h1>
-                    <div className="sponsor-logo">
-                        <img src={accenture_logo} />
-                    </div>
+                    <center>
+                        <div className="sponsors-logos">
+                            <a href="https://www.accenture.com/au-en"><img src={accenture_logo} className="accenture-logo"/></a>
+                        </div>
+                    </center>
                 </div>
             </div>
         </Layout>

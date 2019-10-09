@@ -38,3 +38,17 @@
         background: $dark-grey
         z-index: -1
         pointer-events: all
+
+.banner-background-deep
+  position: fixed
+  +break-medium
+    background: $dark-grey
+  .banner-arrow-wrapper-deep
+    height: 160%
+    filter: drop-shadow(0px 0px 8px rgba(18,23,24,0.9))
+    +break-medium
+      filter: none
+    .banner-arrow
+      clip-path: polygon(50% 100%, -40% 0, 140% 0)
+      .bg-particles
+        opacity: 0.3
