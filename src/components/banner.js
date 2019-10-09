@@ -83,15 +83,11 @@ const particlesjs_config = {
     'interactivity': {
         'detect_on': 'canvas',
         'events': {
-            'onhover': {
-                'enable': false,
-                'mode': 'repulse'
-            },
             'onclick': {
                 'enable': true,
                 'mode': 'push'
             },
-            'resize': true
+            // 'resize': true
         },
         'modes': {
             'grab': {
@@ -107,19 +103,12 @@ const particlesjs_config = {
                 'opacity': 8,
                 'speed': 3
             },
-            'repulse': {
-                'distance': 200,
-                'duration': 0.4
-            },
             'push': {
-                'particles_nb': 2
-            },
-            'remove': {
                 'particles_nb': 2
             }
         }
     },
-    'retina_detect': true
+    'retina_detect': false
 }
 
 export default Banner

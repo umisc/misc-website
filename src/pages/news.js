@@ -4,6 +4,8 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Banner from '../components/banner'
 
+import '../styles/news.sass'
+
 const NewsPage = ({ data }) => {
     const { edges: posts } = data.allMarkdownRemark
     return (
@@ -20,6 +22,7 @@ const NewsPage = ({ data }) => {
                             <div className="news-page-item-details">
                                 <span className="author">{post.frontmatter.author}</span>
                                 <span className="date">{post.frontmatter.date}</span>
+                                <hr />
                             </div>
                         </div>
                     )
