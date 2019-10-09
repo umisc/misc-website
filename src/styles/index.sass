@@ -12,18 +12,15 @@ html
 
 .index-container
   pointer-events: none
+  position: relative
+  height: calc(100% - 140px)
   width: 100%
-  height: 100%
-  display: flex
-  flex-direction: column
-  justify-content: space-between
-  align-items: flex-start
 
   .misc-logo-container
     width: 100%
     img
       display: block
-      height: calc(10vw + 20vh)
+      height: calc(8vw + 24vh)
       max-height: 40vh
       width: 100%
       margin-left: 50%
@@ -50,10 +47,8 @@ html
       font-weight: 800
       font-family: Oswald
       line-height: 1.1em
-      +break-medium
-        font-size: 1.9em
       +break-small
-        font-size: 1.4em
+        font-size: 1.5em
     .subtitle
       margin-top: 14px
       font-size: 1em
