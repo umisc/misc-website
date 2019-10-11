@@ -55,13 +55,15 @@ export default function Template({ data, pageContext }) {
 }
 
 export const postQuery = graphql`
-    query BlogPostByPath($path: String!) {
+    query EventPostByPath($path: String!) {
         markdownRemark(frontmatter: { path: { eq: $path } }) {
               html
               frontmatter {
-                    date(formatString: "MMMM DD, YYYY")
+                    created_on(formatString: "MMMM DD, YYYY")
                     path
-                    author
+                    image {
+                        publicURL
+                    }
                     title
               }
         }
