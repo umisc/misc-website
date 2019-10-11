@@ -8,4 +8,18 @@ else
 fi
 cd "$cwd"
 gatsby build
-git subtree push --prefix "$cwd/public" origin gh-pages
+echo "checking out to gh-pages"
+git checkout gh-pages
+
+cwb=$(git branch | grep \* | cut -d ' ' -f2)
+if [ $cwb == "master" ]
+then
+    echo "can't checkout to gh-pages"
+    exit
+fi
+
+cp ./public/* ./ -r
+echo "copied files to root of gh-pages branch"
+git push gh-pages master
+git checkout master
+echo "checking out to master"
