@@ -3,6 +3,7 @@ path: /event/2019-02-28-summerfest-stall
 title: SummerFest Stall
 date: 2019-02-28
 image: misc-o-week-min.jpg
+author: none
 ---
 
 **Date & Time:** 28/02/2019 from 11.00am to 3.00pm

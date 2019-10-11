@@ -61,8 +61,8 @@ export const postQuery = graphql`
               frontmatter {
                     date(formatString: "MMMM DD, YYYY")
                     path
-                    author
                     title
+                    author
               }
         }
     }

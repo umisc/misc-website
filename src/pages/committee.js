@@ -9,7 +9,7 @@ import '../styles/about.sass'
 const AboutPage = () => {
     return (
         <Layout>
-            <SEO title="Commitee" />
+            <SEO title="Committee" />
             <Banner class_suffix="deep"/>
             <div className="about-container">
                 <div className="about-content">

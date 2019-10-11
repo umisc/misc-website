@@ -17,6 +17,7 @@ const IndexPage = (props) => {
                 <div className="misc-logo-container">
                     <img src={logo_svg} />
                 </div>
+                <span dangerouslySetInnerHTML={{ __html: '<!-- MISCWEBCTF{yes_this_site_is_filled_with_more_flags_like_this_one_try_and_find_them_all!} -->' }}></span>
                 <div className="titles-container">
                     <div className="title">University of Melbourne Information Security Club</div>
                     <div className="subtitle">A Community of White Hat Hackers.</div>

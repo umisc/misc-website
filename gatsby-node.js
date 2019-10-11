@@ -28,8 +28,8 @@ exports.createPages = async({ actions, graphql, reporter }) => {
     }
 
     var nodes = res.data.allMarkdownRemark.edges
-    var blog_nodes = nodes.filter(({ node }) => get_post_type(node.fileAbsolutePath) == 'blog_post')
 
+    var blog_nodes = nodes.filter(({ node }) => get_post_type(node.fileAbsolutePath) == 'blog_post')
     blog_nodes.forEach(({ node }, i) => {
         var prev = i === 0 ? null : blog_nodes[i - 1].node
         var next = i === blog_nodes.length - 1 ? null : blog_nodes[i + 1].node
@@ -64,4 +64,5 @@ function get_post_type(abs_path) {
     } else if(/\/events\//.test(abs_path)) {
         return 'event_post'
     }
+    return ''
 }

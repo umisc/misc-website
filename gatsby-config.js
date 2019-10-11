@@ -38,7 +38,7 @@ module.exports = {
                 background_color: '#4f7b85',
                 theme_color: '#4b8b9a',
                 display: 'minimal-ui',
-                // icon: `src/images/misc-icon.png`,
+                icon: `src/images/misc-icon.svg`,
             },
         },
         {
