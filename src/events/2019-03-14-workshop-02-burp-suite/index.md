@@ -1,7 +1,7 @@
 ---
 path: /event/2019-03-14-workshop-02-burp-suite
 title: Workshop 2 - Burp Suite
-created_on: 2019-03-12
+date: 2019-03-14
 image: workshop2-min.jpg
 ---
 

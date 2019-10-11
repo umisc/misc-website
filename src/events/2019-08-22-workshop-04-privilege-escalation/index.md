@@ -1,7 +1,7 @@
 ---
 path: /event/2019-08-22-workshop-04-privilege-escalation
 title: Workshop 4 - Privilege Escalation
-created_on: 2019-08-20
+date: 2019-08-22
 image: miscwk4.jpg
 ---
 

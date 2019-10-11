@@ -1,7 +1,7 @@
 ---
 path: /event/2019-03-07-workshop-01-intro-to-kali-linux
 title: Workshop 01 - Intro to Kali Linux
-created_on: 2019-03-03
+date: 2019-03-07
 image: workshop-1-min.jpg
 ---
 

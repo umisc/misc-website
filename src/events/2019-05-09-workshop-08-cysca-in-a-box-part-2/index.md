@@ -1,7 +1,7 @@
 ---
 path: /event/2019-05-09-workshop-08-cysca-in-a-box-part-2
 title: Workshop 8 - CySCA in a Box part 2
-created_on: 2019-05-08
+date: 2019-05-09
 image: 61b6e367-min.jpg
 ---
 

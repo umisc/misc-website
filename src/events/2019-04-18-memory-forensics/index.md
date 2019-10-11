@@ -1,7 +1,7 @@
 ---
 path: /event/2019-04-18-memory-forensics
 title: Memory Forensics
-created_on: 2019-04-15
+date: 2019-04-18
 image: 043315c2.jpg
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: /event/2019-04-04-workshop-04-injection-vulnerabilities
 title: Workshop 4 - Injection Vulnerabilities
-created_on: 2019-03-31
+date: 2019-04-04
 image: workshop4.jpg
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: /event/2019-08-29-workshop-05-cross-site-scripting-(xss)
 title: Workshop 5 - Cross-Site Scripting (XSS)
-created_on: 2019-09-18
+date: 2019-08-29
 image: xss.jpg
 ---
 

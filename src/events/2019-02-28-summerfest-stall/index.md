@@ -1,7 +1,7 @@
 ---
 path: /event/2019-02-28-summerfest-stall
 title: SummerFest Stall
-created_on: 2019-03-01
+date: 2019-02-28
 image: misc-o-week-min.jpg
 ---
 

@@ -1,7 +1,7 @@
 ---
 path: /event/2019-09-26-agm-2019
 title: AGM 2019
-created_on: 2019-09-23
+date: 2019-09-26
 image: agm_2.jpg
 ---
 
