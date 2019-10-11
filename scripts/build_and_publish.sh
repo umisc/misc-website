@@ -20,6 +20,6 @@ fi
 
 cp ./public/* ./ -r
 echo "copied files to root of gh-pages branch"
-git push gh-pages master
+git push origin gh-pages
 git checkout master
 echo "checking out to master"
