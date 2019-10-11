@@ -8,7 +8,6 @@ import '../styles/blog.sass'
 
 export default function Template({ data, pageContext }) {
     const { markdownRemark: post } = data
-    console.log(post)
     const { prev, next } = pageContext
     return (
         <div className="blog-post-container">

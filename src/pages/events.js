@@ -3,18 +3,13 @@ import { Link, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Banner from '../components/banner'
 
 import '../styles/events.sass'
 
 const EventsPage = ({ data }) => {
     const { edges: events } = data.allMarkdownRemark
     const past_events = events.filter(({ node: e }) => new Date() > new Date(e.frontmatter.date))
-    const curr_events = events.filter(({node: e}) => {
-        console.log(new Date(), new Date(e.frontmatter.date), console.log(new Date() <= new Date(e.frontmatter.date)))
-        return new Date() <= new Date(e.frontmatter.date)
-    })
-    console.log(curr_events)
+    const curr_events = events.filter(({node: e}) => new Date() <= new Date(e.frontmatter.date))
     return (
         <Layout>
             <SEO title="MISC - Events" />

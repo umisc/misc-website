@@ -20,7 +20,7 @@ const IndexPage = (props) => {
                 <div className="titles-container">
                     <div className="title">University of Melbourne Information Security Club</div>
                     <div className="subtitle">A Community of White Hat Hackers.</div>
-                    <button className="join-button">guest@misc:~ $ <strong>join</strong></button>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6yxrJFwokhd7GiJGSdd7YUn8kDvk4AGsnfjYv6yloEVuUaA/viewform"><button className="join-button">guest@misc:~ $ <strong>join</strong></button></a>
                 </div>
             </div>
         </Layout>
