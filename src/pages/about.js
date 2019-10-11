@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Link from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Banner from '../components/banner'
@@ -28,7 +29,7 @@ const AboutPage = () => {
                         <li>To prepare club members with the skills and network required to pursue a career in cybersecurity</li>
                     </ul>
                     <h1>Our Committee</h1>
-                    <p> Information about our current and past committees can be found <a href="/committee">here.</a></p>
+                    <p> Information about our current and past committees can be found <Link to="/committee">here.</Link></p>
                     <h1>Our Sponsors</h1>
                     <center>
                         <div className="sponsors-logos">
