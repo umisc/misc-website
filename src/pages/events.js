@@ -9,17 +9,21 @@ import '../styles/events.sass'
 
 const EventsPage = ({ data }) => {
     const { edges: events } = data.allMarkdownRemark
-    const past_events = events.filter(({ node: e }) => !is_curr_month(e.frontmatter.date))
-    const curr_events = events.filter(({node: e}) => is_curr_month(e.frontmatter.date))
+    const past_events = events.filter(({ node: e }) => new Date() > new Date(e.frontmatter.date))
+    const curr_events = events.filter(({node: e}) => {
+        console.log(new Date(), new Date(e.frontmatter.date), console.log(new Date() <= new Date(e.frontmatter.date)))
+        return new Date() <= new Date(e.frontmatter.date)
+    })
+    console.log(curr_events)
     return (
         <Layout>
             <SEO title="MISC - Events" />
             <div className="events-page-container">
-                <h1>On This Month</h1>
+                <h1>Upcoming Events</h1>
                 {curr_events.length == 0 ? <div className="no-events">Nothing yet... Check back later this month!</div> : 
-                    <div className="events-items-contaner">
-                        {curr_events.map(({ node: e }) => EventsPageItem(e.frontmatter))}
-                    </div>
+                <div className="events-items-container">
+                    {curr_events.map(({ node: e }) => EventsPageItem(e.frontmatter))}
+                </div>
                 }
                 <h1>Past Events</h1>
                 <div className="events-items-container">
@@ -45,12 +49,6 @@ const EventsPageItem = ({ path, image: { childImageSharp: { fluid } }, title, da
             </Link>
         </div>
     )
-}
-
-const is_curr_month = date => {
-    var curr_date = new Date()
-    var targ_date = new Date(date)
-    return curr_date.getYear() == targ_date.getYear() && curr_date.getMonth() == targ_date.getMonth()
 }
 
 export const pageQuery = graphql`

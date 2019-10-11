@@ -1,15 +1,14 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import SEO from '../components/seo'
 import Header from '../components/header'
 
-import '../styles/prism-onedark.css'
-import 'prismjs/plugins/command-line/prism-command-line.css'
-import 'katex/dist/katex.min.css'
 import '../styles/blog.sass'
 
 export default function Template({ data, pageContext }) {
     const { markdownRemark: post } = data
+    console.log(post)
     const { prev, next } = pageContext
     return (
         <div className="blog-post-container">
@@ -18,9 +17,8 @@ export default function Template({ data, pageContext }) {
             <div className="blog-post">
                 <br />
                 <div className="blog-post-header">
+                    <Img fluid={post.frontmatter.image.childImageSharp.fluid} />
                     <h1 className="title">{post.frontmatter.title}</h1>
-                    <span className="author">By <span className="author-name">{post.frontmatter.author}</span></span>
-                    <span className="date">{post.frontmatter.date}</span>
                 </div>
                 <hr className="blog-header-separator"/>
                 <br />
@@ -59,12 +57,16 @@ export const postQuery = graphql`
         markdownRemark(frontmatter: { path: { eq: $path } }) {
               html
               frontmatter {
-                    created_on(formatString: "MMMM DD, YYYY")
+                    date(formatString: "MMMM DD, YYYY")
                     path
-                    image {
-                        publicURL
-                    }
                     title
+                    image {
+                        childImageSharp {
+                            fluid(maxWidth: 600) {
+                                ...GatsbyImageSharpFluid
+                            }
+                        }
+                    }
               }
         }
     }
