@@ -1,4 +1,5 @@
 module.exports = {
+    pathPrefix: 'misc-website',
     siteMetadata: {
         title: 'MISC - University of Melbourne Information Security Club',
         description: 'MISC\'s website',
