@@ -169,6 +169,18 @@ const AboutPage = () => {
                                     <td>Danish Bassi</td>
                                     <td>Treasurer</td>
                                 </tr>
+                                <tr>
+                                    <td>Terence Denning</td>
+                                    <td>General Committee</td>
+                                </tr>
+                                <tr>
+                                    <td>Takuhiro Kikuchi</td>
+                                    <td>General Committee</td>
+                                </tr>
+                                <tr>
+                                    <td>Max Giammario</td>
+                                    <td>General Committee</td>
+                                </tr>
                             </tbody>
                         </table>
                     </center>
