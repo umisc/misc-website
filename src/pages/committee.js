@@ -14,7 +14,7 @@ const AboutPage = () => {
             <div className="about-container">
                 <div className="about-content">
                     <h1>Committee</h1>
-                    <center>
+                    <center className="committee-tables">
                         <h4>2019 - 2020</h4>
                         <table style={{ fontFamily: 'Source Code Pro' }}>
                             <thead>
