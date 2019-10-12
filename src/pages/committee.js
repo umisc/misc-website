@@ -13,7 +13,7 @@ const AboutPage = () => {
             <Banner class_suffix="deep"/>
             <div className="about-container">
                 <div className="about-content">
-                    <h1>Commitee</h1>
+                    <h1>Committee</h1>
                     <center>
                         <h4>2019 - 2020</h4>
                         <table style={{ fontFamily: 'Source Code Pro' }}>
