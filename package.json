@@ -40,7 +40,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "rm -rf .cache public && gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",
