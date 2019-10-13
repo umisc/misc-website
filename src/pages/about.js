@@ -17,7 +17,7 @@ const AboutPage = () => {
                 <div className="about-content">
                     <h1>SECURE. PROTECT. INFILTRATE.</h1>
                     <p>
-                        Established in 2017, The University of Melbourne's Information Security Club (UMISC) provides an inclusive community of like-minded students, who are either working towards a career in cybersecurity, or just looking to broaden their skillset. The club was originally found with the intention of building a team for CySCA, an annual Capture The Flag (CTF) competition that pits Australian Universities against each other in a hacking competition. Our members come from various backgrounds including Arts, Science and Commerce, and keeping them in mind, our workshops and events are organised to cater to members of all skill levels.
+                        Established in 2017, The University of Melbourne's Information Security Club (MISC) provides an inclusive community of like-minded students, who are either working towards a career in cybersecurity, or just looking to broaden their skillset. The club was originally found with the intention of building a team for CySCA, an annual Capture The Flag (CTF) competition that pits Australian Universities against each other in a hacking competition. Our members come from various backgrounds including Arts, Science and Commerce, and keeping them in mind, our workshops and events are organised to cater to members of all skill levels.
                     </p>
                     <h1>Our Aims</h1>
                     <ul>
