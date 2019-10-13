@@ -14,11 +14,15 @@ const Header = () => (
 
             <ul className="header-nav">
                 <li>
-                    <AniLink fade duration={0.2} to="/about" activeClassName="active" className="hvr-underline-from-center about-link" >ABOUT
+                    <AniLink fade duration={0.2} to="/about" activeClassName="active" className="hvr-underline-from-center">ABOUT
                     </AniLink>
                 </li>
                 <li>
-                    <AniLink fade duration={0.2} to="/events" activeClassName="active" className="hvr-underline-from-center events-link">
+                    <AniLink fade duration={0.2} to="/join" activeClassName="active" className="hvr-underline-from-center">JOIN
+                    </AniLink>
+                </li>
+                <li>
+                    <AniLink fade duration={0.2} to="/events" activeClassName="active" className="hvr-underline-from-center">
                         EVENTS
                     </AniLink>
                 </li>

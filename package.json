@@ -27,6 +27,7 @@
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
     "react-particles-js": "^2.7.0",
+    "tiled-hexagons": "^1.0.2",
     "typeface-fira-sans": "^0.0.75",
     "typeface-oswald": "^0.0.75",
     "typeface-source-code-pro": "^0.0.71"

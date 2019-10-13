@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -21,7 +21,7 @@ const IndexPage = (props) => {
                 <div className="titles-container">
                     <div className="title">University of Melbourne Information Security Club</div>
                     <div className="subtitle">A Community of White Hat Hackers.</div>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6yxrJFwokhd7GiJGSdd7YUn8kDvk4AGsnfjYv6yloEVuUaA/viewform"><button className="join-button">guest@misc:~ $ <strong>join</strong></button></a>
+                    <AniLink fade duration={0.2} to="/join"><button className="join-button">guest@misc:~ $ <strong>join</strong></button></AniLink>
                 </div>
             </div>
         </Layout>
