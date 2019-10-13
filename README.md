@@ -55,11 +55,13 @@ A hot-reloading development environment should now be accessible at `localhost:8
     |  |-- templates
     |  |-- images
     |  |-- pages
+    |  |-- events
     |  |-- posts
     |  |   |-- 2019-10-06-post1 (folder)
     |  |   |   └-- index.md
     |  |   └-- ...
     |  └-- styles
+    |-- static
     |-- .gitignore
     |-- gatsby-browser.js
     |-- gatsby-config.js
@@ -70,7 +72,9 @@ A hot-reloading development environment should now be accessible at `localhost:8
 
 1.  **`/node_modules`**: This directory contains modules used and is created when you run `yarn install` or `npm install`.
 
-2.  **`/src`**: Contains most of the stuff needed to build the website.
+2.  **`/static`**: Contains files that will be copied to the root of the `/public` build directory. Use this for linking files hosted on the website.
+
+3.  **`/src`**: Contains most of the stuff needed to build the website.
 
     1. **`components`**: Contains `.js` files all of which export a React component that will probably be used in a file in either `pages` or `templates` or both.
 
@@ -82,13 +86,15 @@ A hot-reloading development environment should now be accessible at `localhost:8
 
     5. **`posts`**: Contains folders which themselves contain a markdown file (and any other assets used by said markdown file) which will get built into a route using the `blog-post.js` template in `templates`. This should be one of the most active directories in the sense that new content can be loaded onto the site easily by creating files in this directory. The naming convention `YYYY-MM-DD-post-title` should be used for subdirectories.
 
-    6. **`styles`**: Contains [SASS](https://sass-lang.com/) files as well as standard CSS files. These files need to be imported by the component/template/page that uses them. E.g. at the top of the `blog-template.js` file, there is an `import '../styles/blog.sass'` statement.
+    6. **`events`**: Contains folders which themselves contain a markdown file (and any other assets used by said markdown file) which will get built into a route using the `event-post.js` template in `templates`. Naming convention same as above.
 
-3.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser. This does not do a lot at the moment.
+    7. **`styles`**: Contains [SASS](https://sass-lang.com/) files as well as standard CSS files. These files need to be imported by the component/template/page that uses them. E.g. at the top of the `blog-template.js` file, there is an `import '../styles/blog.sass'` statement.
 
-4.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where site (metadata) like the site title and description is specified, and where Gatsby plugins can be include from. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+4.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser. This does not do a lot at the moment.
 
-5.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process. Current usage of this file includes building pages from the markdown files in the `posts` directory.
+5.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where site (metadata) like the site title and description is specified, and where Gatsby plugins can be include from. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+
+6.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process. Current usage of this file includes building pages from the markdown files in the `posts` directory.
 
 ## 👨‍💻  Contributors
 
