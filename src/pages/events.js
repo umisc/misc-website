@@ -8,8 +8,8 @@ import '../styles/events.sass'
 
 const EventsPage = ({ data }) => {
     const { edges: events } = data.allMarkdownRemark
-    const past_events = events.filter(({ node: e }) => new Date() > new Date(e.frontmatter.date))
-    const curr_events = events.filter(({node: e}) => new Date() <= new Date(e.frontmatter.date))
+    const past_events = events.filter(({ node: e }) => before_today(e.frontmatter.date))
+    const curr_events = events.filter(({node: e}) => !before_today(e.frontmatter.date))
     return (
         <Layout>
             <SEO title="MISC - Events" />
@@ -27,6 +27,15 @@ const EventsPage = ({ data }) => {
             </div>
         </Layout>
     )
+}
+
+const before_today = d => {
+    var today = new Date()
+    var targ = new Date(d)
+    var prev_year = targ.getFullYear() < today.getFullYear()
+    var prev_month = targ.getFullYear() == today.getFullYear() && targ.getMonth() < today.getMonth()
+    var prev_day = targ.getFullYear() == today.getFullYear() && targ.getMonth() == today.getMonth() && targ.getDate() < today.getDate()
+    return prev_year || prev_month || prev_day
 }
 
 const EventsPageItem = ({ path, image: { childImageSharp: { fluid } }, title, date }) => {
