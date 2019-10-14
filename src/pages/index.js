@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 import Banner from '../components/banner'
 
 import '../styles/index.sass'
-import logo_svg from '../images/umisc_logo_white.svg'
+import logo_svg from '../images/umisc_logo_white.png'
 
 const IndexPage = (props) => {
     return (
