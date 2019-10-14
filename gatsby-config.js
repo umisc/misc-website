@@ -1,10 +1,19 @@
 module.exports = {
     siteMetadata: {
         title: 'MISC - University of Melbourne Information Security Club',
+        siteUrl: 'https://umisc.info',
         description: 'MISC\'s website',
         author: 'josephsurin',
     },
     plugins: [
+        {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+                host: '',
+                sitemap: '',
+                policy: [{ userAgent: '*', disallow: ['/1079a055f110d54ba12f08bd6b671f6c'] }]
+            }
+        },
         'gatsby-plugin-react-helmet',
         {
             resolve: 'gatsby-source-filesystem',
