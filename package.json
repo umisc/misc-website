@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "author": "Joseph Surin <joseph.surin@gmail.com>",
   "dependencies": {
+    "@emotion/styled": "^10.0.22",
     "gatsby": "^2.15.29",
     "gatsby-image": "^2.2.24",
     "gatsby-plugin-manifest": "^2.2.20",
@@ -17,6 +18,7 @@
     "gatsby-remark-katex": "^3.1.12",
     "gatsby-remark-prismjs": "^3.3.17",
     "gatsby-source-filesystem": "^2.1.29",
+    "gatsby-theme-gallery": "^1.0.1",
     "gatsby-transformer-remark": "^2.6.27",
     "gatsby-transformer-sharp": "^2.2.20",
     "gsap": "^2.1.3",

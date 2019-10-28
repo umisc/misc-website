@@ -12,7 +12,7 @@ const EventsPage = ({ data }) => {
     const curr_events = events.filter(({node: e}) => !before_today(e.frontmatter.date))
     return (
         <Layout>
-            <SEO title="MISC - Events" />
+            <SEO title="Events" />
             <div className="events-page-container">
                 <h1>Upcoming Events</h1>
                 {curr_events.length == 0 ? <div className="no-events">Nothing yet... Check back later this month!</div> : 

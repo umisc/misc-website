@@ -1,9 +1,9 @@
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import React from 'react'
 
-import '../styles/header.sass'
+import '../../styles/header.sass'
 
-const Header = () => (
+const HeaderGall = () => (
     <header>
         <div className="header-container">
             <h4 className="header-title">
@@ -44,4 +44,4 @@ const Header = () => (
                 //     </AniLink>
                 // </li>
 
-export default Header
+export default HeaderGall
