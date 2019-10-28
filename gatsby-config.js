@@ -71,6 +71,12 @@ module.exports = {
             }
         },
         'gatsby-plugin-sass',
-        'gatsby-plugin-transition-link'
+        'gatsby-plugin-transition-link',
+        {
+            resolve: 'gatsby-theme-gallery',
+            options: {
+                basePath : '/gallery',
+            }
+        }
     ]
 }

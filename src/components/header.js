@@ -26,6 +26,11 @@ const Header = () => (
                         EVENTS
                     </AniLink>
                 </li>
+                <li>
+                    <AniLink fade duration={0.2} to="/events" activeClassName="active" className="hvr-underline-from-center">
+                        GALLERY
+                    </AniLink>
+                </li>
             </ul>
 
 
