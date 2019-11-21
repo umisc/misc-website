@@ -18,11 +18,11 @@ As exams loom around the corner and the year comes to an end, join MISC for the 
 (DM Asil for current odds and bets, there's money to be made people) 
 
 - Show off your knowledge by competing in the EoY Trivia and answering questions about cysec, general knowledge, memes and MISC committee. (90% memes though). Winner gets a Maybe Prize.
-     - You may compete individually or in pairs
-     - No, there won't be math
+    - You may compete individually or in pairs
+    - No, there won't be math
 
 Along side traditional pizza, there will be plenty of Coke Energy up for grabs. Stock up to keep yourself energised throughout SWOT VAC. 
 Some feedback from our members on coke energy:
-"Coke energy has helped me increase my wam from low 90s to high 90s" - Joseph Surin
-"I've been using coke energy since before it was a energy drink" - Joshua Ong
-"I was lost but Coke energy gave meaning to my life" - Rohyl Joshi
+- "Coke energy has helped me increase my wam from low 90s to high 90s" - Joseph Surin
+- "I've been using coke energy since before it was a energy drink" - Joshua Ong
+- "I was lost but Coke energy gave meaning to my life" - Rohyl Joshi
