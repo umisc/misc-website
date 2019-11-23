@@ -18,7 +18,7 @@
     "gatsby-remark-katex": "^3.1.12",
     "gatsby-remark-prismjs": "^3.3.17",
     "gatsby-source-filesystem": "^2.1.29",
-    "gatsby-theme-gallery": "^1.0.1",
+    "gatsby-theme-gallery": "^1.0.2",
     "gatsby-transformer-remark": "^2.6.27",
     "gatsby-transformer-sharp": "^2.2.20",
     "gsap": "^2.1.3",
