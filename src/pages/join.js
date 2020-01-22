@@ -14,9 +14,21 @@ const JoinPage = () => {
             <Banner class_suffix="deep"/>
             <div className="about-container">
                 <div className="about-content">
-                    <h1>JOIN US.</h1>
+                    <a href="https://forms.gle/g3Dn81zGYw5sjJeS6">
+                        <button className="signup-button">SIGN UP NOW</button>
+                    </a>
                     <p>
                         Join us for weekly lessons on InfoSec and CySec fundamentals as well as talks and networking events with industry professionals.
+                    </p>
+                    <h1>How To Join</h1>
+                    <p>
+                        <ol>
+                            <li>Provide us with your details via the <a href="https://forms.gle/g3Dn81zGYw5sjJeS6">sign up form</a>.</li>
+                            <li>Come see us any time (e.g. workshops, events) to make payment.</li>
+                        </ol>
+                        Membership is $5 anually for University of Melbourne students. <span style={{ fontSize: '9px' }}><br/>(very worth it for a year of pizza every week and awesome events)</span>.
+                        <br/><br/>
+                        Feel free to join our <a href="https://discord.gg/sUAJ9b3">Discord server</a> where we discuss challenges and post details about upcoming events.
                     </p>
                     <h1>Workshops</h1>
                     <p>
@@ -32,16 +44,6 @@ const JoinPage = () => {
                         <li>Cryptography</li>
                         <li>Penetration Testing</li>
                     </ul>
-                    </p>
-                    <h1>How To Join</h1>
-                    <p>
-                        <ol>
-                            <li>Provide us with your details <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6yxrJFwokhd7GiJGSdd7YUn8kDvk4AGsnfjYv6yloEVuUaA/viewform">here</a>.</li>
-                            <li>Come to any workshop session to make payment.</li>
-                        </ol>
-                        Membership is $5 anually for University of Melbourne students. <span style={{ fontSize: '9px' }}><br/>(very worth it for a year of pizza every week and awesome events)</span>.
-                        <br/><br/>
-                        Feel free to join our <a href="https://discord.gg/sUAJ9b3">Discord server</a> where we discuss challenges and post details about upcoming events.
                     </p>
                     <h1>Constitution</h1>
                     <p>The club's constitution can be found <a href="/misc-constitution-2018aug.pdf">here</a>.</p>
