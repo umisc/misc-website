@@ -16,7 +16,6 @@ export default function Template({ data, pageContext }) {
         <Layout>
             <div className="blog-post-container">
                 <SEO title={`MISC - ${post.frontmatter.title}`} />
-                <Header />
                 <div className="blog-post">
                     <br />
                     <div className="blog-post-header">

@@ -66,7 +66,13 @@ module.exports = {
                             displayMode: false
                         }
                     },
-                    'gatsby-remark-copy-linked-files'
+                    'gatsby-remark-copy-linked-files',
+                    {
+                        resolve: `gatsby-remark-images`,
+                        options: {
+                            maxWidth: 600
+                        }
+                    }
                 ]
             }
         },
