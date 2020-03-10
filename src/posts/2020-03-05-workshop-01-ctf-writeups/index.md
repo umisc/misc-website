@@ -27,7 +27,7 @@ Scoreboard (top 5) at the end of the workshop:
 - [Strings (100pts)](#strings)
 - [Top Crossovers (125pts)](#top-crossovers)
 
-### Pizza Shop (50pts) <a name="pizza-shop"></a>
+# Pizza Shop (50pts) <a name="pizza-shop"></a>
 
 > The only pizza shop you'll ever need.
 >
@@ -104,7 +104,7 @@ int main(void) {
 }
 ```
 
-#### Solution
+## Solution
 
 We are given a host running a TCP listener on port `6001`. We are also given the source code for the program running on the server.
 
@@ -151,13 +151,13 @@ Here you go: MISCCTF{i_w1sh_i_h4d_th47_m4ny_p1zz4s}
 
 ---
 
-### Mix n Mash <a name="mix-n-mash"></a>
+# Mix n Mash <a name="mix-n-mash"></a>
 
 > `001101100011011000110101001101110011010000110101001101110011011100110100011001000011010100110100001101100011010000110110011000010011011000110010001101000011011100110101001101100011011100110111001101010011100100110101001101000011010001100101001101100011011000110100011001010011011101100001001101000011001000110110001110000011010100111000001100110011001000110101001110010011011100111000001101010011100000110011001100110011010100110010001101100011100000110100011001000011010100111000001101000011010100110111001101110011011000110011001101000011011100110100001101100011011100111001001101100011010100110011001100010011010001100101001101000011100000110101001101010011010000110110001101000011001000110100001101110011010100110110001101100110001100110110011001100011001101100100`
 >
 > Author: Joseph
 
-#### Solution
+## Solution
 
 Recommended tool: [CyberChef](https://gchq.github.io/CyberChef/)
 
@@ -176,7 +176,7 @@ Lastly, we notice that the flag format is `MISCCTF{blahblahblah}` and use this a
 
 ---
 
-### Epic Meme (100pts) <a name="epic-meme"></a>
+# Epic Meme (100pts) <a name="epic-meme"></a>
 
 > Look at this meme I saw the other day. Everyone knows that's not how files work! How funny would it be if it worked though.
 >
@@ -184,7 +184,7 @@ Lastly, we notice that the flag format is `MISCCTF{blahblahblah}` and use this a
 
 [EpicMeme.jpg](https://github.com/umisc/workshops/tree/master/workshop-01-introduction-to-information-security/challenges/EpicMeme/EpicMeme.jpg)
 
-#### Solution
+## Solution
 
 Taking a hint from the description, we try changing the file extension to `.mp3` and opening the file in some audio software (Firefox, for example). Doing so plays an audio file that sounds rather robotic. Opening the file in [Audacity](https://www.audacityteam.org/) and viewing the [spectrogram](https://en.wikipedia.org/wiki/Spectrogram) of the audio gives the flag:
 
@@ -192,7 +192,7 @@ Taking a hint from the description, we try changing the file extension to `.mp3`
 
 ---
 
-### Strings (100pts) <a name="strings"></a>
+# Strings (100pts) <a name="strings"></a>
 
 > It does exactly what it says on the tin.
 >
@@ -200,7 +200,7 @@ Taking a hint from the description, we try changing the file extension to `.mp3`
 
 [strings](https://github.com/umisc/workshops/tree/master/workshop-01-introduction-to-information-security/challenges/strings/strings)
 
-#### Solution
+## Solution
 
 We are given an [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format#Applications) executable (to be run on a Linux machine). If we run the program without any arguments, it tells us the correct usage:
 
@@ -257,7 +257,7 @@ nice work!, you've found the flag!
 
 ---
 
-### Top Crossovers (125pts) <a name="top-crossovers"></a>
+# Top Crossovers (125pts) <a name="top-crossovers"></a>
 
 > This website lets you submit your very own story! If it's got the best crossovers, you win... a flag?!
 >
@@ -267,7 +267,7 @@ nice work!, you've found the flag!
 >
 > Author: Joseph
 
-#### Solution
+## Solution
 
 We are presented with a fairly minimal interface:
 
