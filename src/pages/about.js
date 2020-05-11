@@ -30,20 +30,17 @@ const AboutPage = () => {
                     </ul>
                     <h1>Our Committee</h1>
                     <p> Information about our current and past committees can be found <Link to="/committee">here.</Link></p>
-                </div>
-            </div>
-        </Layout>
-    )
-
-    /* 
                     <h1>Our Sponsors</h1>
                     <center>
                         <div className="sponsors-logos">
                             <a href="https://www.accenture.com/au-en"><img src={accenture_logo} className="accenture-logo"/></a>
                         </div>
                     </center>
+                </div>
+            </div>
+        </Layout>
+    )
 
-    */
 
 } 
 export default AboutPage
