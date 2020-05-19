@@ -1,4 +1,6 @@
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
+// import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import Link from 'gatsby-plugin-transition-link'
+const AniLink = Link
 import React from 'react'
 
 import '../styles/header.sass'
