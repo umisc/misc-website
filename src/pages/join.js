@@ -24,9 +24,10 @@ const JoinPage = () => {
                     <p>
                         <ol>
                             <li>Provide us with your details via the <a href="https://forms.gle/g3Dn81zGYw5sjJeS6">sign up form</a>.</li>
-                            <li>Come see us any time (e.g. workshops, events) to make payment, or see the signup form for bank details if you prefer to pay via bank transfer.</li>
+                            {/*<li>Come see us any time (e.g. workshops, events) to make payment, or see the signup form for bank details if you prefer to pay via bank transfer.</li>*/}
                         </ol>
-                        Membership is $5 annually for University of Melbourne students. <span style={{ fontSize: '9px' }}><br/>(very worth it for a year of weekly pizza and awesome events)</span>.
+                        {/*Membership is $5 annually for University of Melbourne students. <span style={{ fontSize: '9px' }}><br/>(very worth it for a year of weekly pizza and awesome events)</span>.*/}
+                        There is no membership fee for the rest of 2020.
                         <br/><br/>
                         Feel free to join our <a href="https://discord.gg/sUAJ9b3">Discord server</a> where we discuss challenges and post details about upcoming events.
                     </p>

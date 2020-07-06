@@ -24,11 +24,6 @@ const Header = () => (
                     </AniLink>
                 </li>
                 <li>
-                    <AniLink fade duration={0.2} to="/news" activeClassName="active" className="hvr-underline-from-center news-link">
-                        NEWS
-                    </AniLink>
-                </li>
-                <li>
                     <AniLink fade duration={0.2} to="/events" activeClassName="active" className="hvr-underline-from-center">
                         EVENTS
                     </AniLink>
@@ -39,11 +34,16 @@ const Header = () => (
                     </AniLink>
                 </li>
             </ul>
-
-
         </div>
     </header>
 )
 
+/*
+                <li>
+                    <AniLink fade duration={0.2} to="/news" activeClassName="active" className="hvr-underline-from-center news-link">
+                        NEWS
+                    </AniLink>
+                </li>
+*/
 
 export default Header
