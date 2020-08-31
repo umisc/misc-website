@@ -33,7 +33,8 @@ const JoinPage = () => {
                     </p>
                     <h1>Workshops</h1>
                     <p>
-                        Weekly workshops typically take place throughout the semester on <b>Thursdays</b> from <b>1:15pm - 3pm</b> at some location in the Parkville campus (see the <Link to="/events">events page</Link> or our <a href="https://facebook.com/uomisc">Facebook page</a> for more details about workshops and other events). These workshops are aimed at giving you essential knowledge and letting you improve your practical skills with custom designed CTF-style challenges. We cover a range of topics including:
+                        {/*Weekly workshops typically take place throughout the semester on <b>Thursdays</b> from <b>1:15pm - 3pm</b> at some location in the Parkville campus (see the <Link to="/events">events page</Link> or our <a href="https://facebook.com/uomisc">Facebook page</a> for more details about workshops and other events). These workshops are aimed at giving you essential knowledge and letting you improve your practical skills with custom designed CTF-style challenges. We cover a range of topics including:*/}
+                        While the university is not offering face-to-face classes, all events will be online. Workshops are held on <b>Thursdays</b> evenings via Discord (see the <Link to="/events">events page</Link> or our <a href="https://facebook.com/uomisc">Facebook page</a> for more details about workshops and other events). These workshops are aimed at giving you essential knowledge and letting you improve your practical skills with custom designed CTF-style challenges. We cover a range of topics including:
                     <ul>
                         <li>General Linux Skills</li>
                         <li>Web Application Security</li>
