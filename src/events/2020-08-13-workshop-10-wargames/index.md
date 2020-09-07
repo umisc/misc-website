@@ -1,8 +1,8 @@
 ---
 path: /event/2020-08-13-wargames
-title: Workshop 01 - Wargames
+title: Workshop 10 - Wargames
 date: 2020-08-13
-image: 2020s2-workshop01-poster.png
+image: 2020s2-workshop10-poster.png
 ---
 
 - **Date & Time:** 08/13/2020 from 6:00pm to 7:00pm
