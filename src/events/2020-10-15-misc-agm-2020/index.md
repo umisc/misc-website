@@ -17,7 +17,7 @@ If you've enjoyed our workshops and online events this year, or if you miss the 
 
 The meeting will be held over Zoom.
 - Date: Thursday 15th October 2020 (first week back after the break)
-- Time: 2PM to 4PM AEST
+- Time: 2PM to 4PM AEDT
 - Link: https://unimelb.zoom.us/j/81132488544?pwd=WGxMZGh5UnhxWm1uQXBWNmwxQWhnUT09
 - Meeting ID: 811 3248 8544
 - Password: 1337
