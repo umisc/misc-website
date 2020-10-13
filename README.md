@@ -10,11 +10,10 @@
 - Expand the club's brand image
 - Provide information about the club and how to join
 - Provide information about all MISC events
-- Be the home of "challenge of the week" posts and writeups [soon™]
 
 ### Development and Maintenance
 
-The website is a static site built using [Gatsby](https://www.gatsbyjs.org/) which is based on [React](https://www.gatsbyjs.org/) and uses [GraphQL](https://graphql.org/) to access data.
+The website is a static site built using [Gatsby](https://www.gatsbyjs.org/) which is based on [React](https://www.reactjs.org/) and uses [GraphQL](https://graphql.org/) to access data.
 
 ## 🚀 Quick start
 
@@ -25,7 +24,7 @@ Clone the repository. The rest of this guide will assume you are in the root of 
 ```bash
 yarn global add gatsby-cli
 
-# or if you must...
+# or
 npm install -g gatsby-cli
 ```
 
@@ -34,17 +33,42 @@ npm install -g gatsby-cli
 ```bash
 yarn install
 
-# or if you must...
+# or
 npm install
 ```
 
 3. **Start the development server**
 
 ```
-gatsby develop
+yarn develop
+
+# or
+npm run develop
 ```
 
 A hot-reloading development environment should now be accessible at `localhost:8000`.
+
+## 📦 Deployment
+
+Deployment to GitHub pages is easy with the help of `gh-pages`. Install the `gh-pages` package:
+
+```bash
+yarn global add gh-pages
+
+# or
+npm install -g gh-pages
+```
+
+Then, in the project's root directory
+
+```bash
+yarn deploy
+
+# or
+npm run deploy
+```
+
+It might take a while to build (because of all the images).
 
 ## 🗂 Project Structure
 
@@ -86,9 +110,9 @@ A hot-reloading development environment should now be accessible at `localhost:8
 
     4. **`pages`**: Contains the static pages (React components). Each page is automatically loaded by Gatsby and turned into a route on the website. For example, the `index.js` file in the `pages` directory exports a React component that will render on the route `/index`.
 
-    5. **`posts`**: Contains folders which themselves contain a markdown file (and any other assets used by said markdown file) which will get built into a route using the `blog-post.js` template in `templates`. This should be one of the most active directories in the sense that new content can be loaded onto the site easily by creating files in this directory. The naming convention `YYYY-MM-DD-post-title` should be used for subdirectories.
+    5. **`posts`**: Contains folders which themselves contain a markdown file (and any other assets used by said markdown file) which will get built into a route using the `blog-post.js` template in `templates`. The naming convention `YYYY-MM-DD-post-title` should be used for subdirectories.
 
-    6. **`events`**: Contains folders which themselves contain a markdown file (and any other assets used by said markdown file) which will get built into a route using the `event-post.js` template in `templates`. Naming convention same as above.
+    6. **`events`**: Contains folders which themselves contain a markdown file (and any other assets used by said markdown file) which will get built into a route using the `event-post.js` template in `templates`. Naming convention same as above. Take a look at the existing directories to see how to add new events to the website.
 
     7. **`styles`**: Contains [SASS](https://sass-lang.com/) files as well as standard CSS files. These files need to be imported by the component/template/page that uses them. E.g. at the top of the `blog-template.js` file, there is an `import '../styles/blog.sass'` statement.
 
@@ -108,4 +132,4 @@ A hot-reloading development environment should now be accessible at `localhost:8
 
 ## 🧐 Issues
 
-Any issues should be reported to Joseph via Discord or Slack or by making an issue in this repository.
+Any issues should be reported to Joseph via Discord or by making an issue in this repository.
