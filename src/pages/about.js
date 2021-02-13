@@ -8,6 +8,12 @@ import Banner from '../components/banner'
 import '../styles/about.sass'
 import accenture_logo from '../images/accenture-logo.png'
 
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import { responsive } from '../utils/responsive';
+import { sponsersInfo } from '../utils/sponsersInfo';
+
+
 const AboutPage = () => {
     return (
         <Layout>
@@ -32,9 +38,17 @@ const AboutPage = () => {
                     <p> Information about our current and past committees can be found <Link to="/committee">here.</Link></p>
                     <h1>Our Sponsors</h1>
                     <center>
-                        <div className="sponsors-logos">
-                            <a href="https://www.accenture.com/au-en"><img src={accenture_logo} className="accenture-logo"/></a>
-                        </div>
+                        <Carousel
+                              ssr
+                              itemClass="image-item"
+                              responsive={responsive}
+                            >
+                          {sponsersInfo.slice(0, sponsersInfo.length).map(sponserInfo => {
+                            return (
+                              <a href={sponserInfo.href}><img alt={sponserInfo.name} src={sponserInfo.image} style={{ width: "100%", height: "100%" }}/></a>
+                            );
+                          })}
+                        </Carousel>
                     </center>
                 </div>
             </div>

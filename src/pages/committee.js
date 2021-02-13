@@ -15,6 +15,45 @@ const AboutPage = () => {
                 <div className="about-content">
                     <h1>Committee</h1>
                     <center className="committee-tables">
+                    <h4>2020 - 2021</h4>
+                        <table style={{ fontFamily: 'Source Code Pro' }}>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Position</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Kaif Ahsan</td>
+                                    <td>President</td>
+                                </tr>
+                                <tr>
+                                    <td>Tate Deklerk</td>
+                                    <td>Secretary</td>
+                                </tr>
+                                <tr>
+                                    <td>Livya Riany</td>
+                                    <td>Treasurer</td>
+                                </tr>
+                                <tr>
+                                    <td>Ayesha Ahmed</td>
+                                    <td>General Committee</td>
+                                </tr>
+                                <tr>
+                                    <td>Syed Ahammad Newaz Saif</td>
+                                    <td>General Committee</td>
+                                </tr>
+                                <tr>
+                                    <td>Soorya Kumar</td>
+                                    <td>General Committee</td>
+                                </tr>
+                                <tr>
+                                    <td>Kushal Jaiswal</td>
+                                    <td>IT Officer</td>
+                                </tr>
+                            </tbody>
+                        </table>
                         <h4>2019 - 2020</h4>
                         <table style={{ fontFamily: 'Source Code Pro' }}>
                             <thead>
