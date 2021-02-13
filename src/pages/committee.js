@@ -45,7 +45,7 @@ const AboutPage = () => {
                                     <td>General Committee</td>
                                 </tr>
                                 <tr>
-                                    <td>Soorya Kumar</td>
+                                    <td>Kumar Soorya</td>
                                     <td>General Committee</td>
                                 </tr>
                                 <tr>
