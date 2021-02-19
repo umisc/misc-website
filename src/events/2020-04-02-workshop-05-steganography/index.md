@@ -1,6 +1,7 @@
 ---
 path: /event/2020-04-02-steganography
 title: Workshop 05 - Steganography
+eventType: Workshop
 date: 2020-04-02
 image: 2020s1-workshop05-poster.png
 ---

@@ -1,6 +1,7 @@
 ---
 path: /event/2019-05-16-workshop-09-vulnerabilities-in-binaries
 title: Workshop 9 - Vulnerabilities in Binaries
+eventType: Workshop
 date: 2019-05-16
 image: 7baffcef.jpg
 ---

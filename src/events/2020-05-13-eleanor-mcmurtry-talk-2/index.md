@@ -1,6 +1,7 @@
 ---
 path: /event/2020-05-13-eleanor-mcmurtry-talk-2
 title: "How To Keep A Secret: Cryptographic Security (with Eleanor McMurtry)"
+eventType: Guest Events
 date: 2020-05-13
 image: poster.png
 ---

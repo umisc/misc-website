@@ -1,6 +1,7 @@
 ---
 path: /event/2020-10-01-misc-agm-2020
 title: MISC AGM 2020
+eventType: Special events
 date: 2020-10-15
 image: poster.png
 ---

@@ -1,6 +1,7 @@
 ---
 path: /event/2020-10-08-cyber-security-interviews-and-beyond
 title: Workshop 13 - Cyber Security Interviews & Beyond
+eventType: Workshop
 date: 2020-10-08
 image: 2020s2-workshop13-poster.png
 ---

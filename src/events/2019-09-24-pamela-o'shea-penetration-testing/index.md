@@ -1,6 +1,7 @@
 ---
 path: /event/2019-09-24-pamela-o'shea-penetration-testing
 title: Pamela O'Shea - Penetration Testing.
+eventType: Guest Events
 date: 2019-09-24
 image: pamela_2.jpg
 ---

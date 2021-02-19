@@ -1,6 +1,7 @@
 ---
 path: /event/2020-05-07-cryptography
 title: Workshop 08 - Cryptography
+eventType: Workshop
 date: 2020-05-07
 image: 2020s1-workshop08-poster.png
 ---

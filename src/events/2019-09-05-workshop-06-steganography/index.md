@@ -1,6 +1,7 @@
 ---
 path: /event/2019-09-05-workshop-06-steganography
 title: Workshop 6 - Steganography
+eventType: Workshop
 date: 2019-09-05
 image: workshop 6.jpg
 ---

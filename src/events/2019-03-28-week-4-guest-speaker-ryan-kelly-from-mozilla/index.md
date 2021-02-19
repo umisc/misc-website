@@ -1,6 +1,7 @@
 ---
 path: /event/2019-03-28-week-4-guest-speaker-ryan-kelly-from-mozilla
 title: Week 4 Guest Speaker - Ryan Kelly from Mozilla
+eventType: Guest Events
 date: 2019-03-28
 image: mozilla-min.jpg
 ---

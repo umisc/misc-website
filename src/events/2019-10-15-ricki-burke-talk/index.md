@@ -1,6 +1,7 @@
 ---
 path: /event/2019-10-15-ricki-burke-talk
 title: Inside Cybersec Recruitment (with Ricki Burke)
+eventType: Guest Events
 date: 2019-10-15
 image: ricki-burke-talk-poster.png
 ---

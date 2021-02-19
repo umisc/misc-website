@@ -1,6 +1,7 @@
 ---
 path: /event/2019-08-01-workshop-01-intro-to-cyber-secuirty
 title: Workshop 01 - Intro to Cyber Secuirty
+eventType: Workshop
 date: 2019-08-01
 image: workshop1.jpg
 ---

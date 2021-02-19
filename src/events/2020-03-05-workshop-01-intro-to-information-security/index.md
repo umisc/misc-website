@@ -1,6 +1,7 @@
 ---
 path: /event/2020-03-05-intro-to-information-security
 title: Workshop 01 - Intro To Information Security
+eventType: Workshop
 date: 2020-03-05
 image: 2020s1-workshop01-poster.png
 ---

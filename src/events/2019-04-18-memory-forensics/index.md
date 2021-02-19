@@ -1,6 +1,7 @@
 ---
 path: /event/2019-04-18-memory-forensics
 title: Memory Forensics
+eventType: Workshop
 date: 2019-04-18
 image: 043315c2.jpg
 ---

@@ -1,6 +1,7 @@
 ---
 path: /event/2019-10-24-trivia
 title: Workshop 11 - End of Semester Trivia
+eventType: Workshop
 date: 2019-10-24
 image: 2019s2-workshop11-poster.png
 ---

@@ -1,6 +1,7 @@
 ---
 path: /event/2020-03-16-x86-reversing
 title: Workshop 03 - x86 Reversing
+eventType: Workshop
 date: 2020-03-16
 image: 2020s1-workshop03-poster.png
 ---

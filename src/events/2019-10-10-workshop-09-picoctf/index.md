@@ -1,6 +1,7 @@
 ---
 path: /event/2019-10-10-workshop-09-picoctf
 title: Workshop 09 - picoCTF and Accenture Guest Speaker
+eventType: Guest Events
 date: 2019-10-10
 image: 2019s2-workshop09-poster.jpg
 ---

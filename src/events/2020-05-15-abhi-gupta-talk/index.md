@@ -1,6 +1,7 @@
 ---
 path: /event/2020-05-15-abhi-gupta-talk
 title: A Day in the Life of a Pentester (with Abhi Gupta)
+eventType: Guest Events
 date: 2020-05-15
 image: poster.png
 ---
