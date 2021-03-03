@@ -14,7 +14,7 @@ const JoinPage = () => {
             <Banner class_suffix="deep"/>
             <div className="about-container">
                 <div className="about-content">
-                    <a href="https://miscmembership.getqpay.com/">
+                    <a href="https://forms.gle/7RGeuZL3scvfAigK8">
                         <button className="signup-button">SIGN UP NOW</button>
                     </a>
                     <p>
@@ -23,7 +23,7 @@ const JoinPage = () => {
                     <h1>How To Join</h1>
                     <p>
                         <ol>
-                            <li>Provide us with your details via the <a href="https://miscmembership.getqpay.com/">sign up form</a>.</li>
+                            <li>Provide us with your details via the <a href="https://forms.gle/7RGeuZL3scvfAigK8">sign up form</a>.</li>
                             {/*<li>Come see us any time (e.g. workshops, events) to make payment, or see the signup form for bank details if you prefer to pay via bank transfer.</li>*/}
                         </ol>
                         {/*Membership is $5 annually for University of Melbourne students. <span style={{ fontSize: '9px' }}><br/>(very worth it for a year of weekly pizza and awesome events)</span>.*/}
