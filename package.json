@@ -31,6 +31,7 @@
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
     "react-particles-js": "^2.7.0",
+    "rimraf": "^3.0.2",
     "sharp": "^0.25.2",
     "tiled-hexagons": "^1.0.2",
     "typeface-fira-sans": "^0.0.75",
@@ -46,7 +47,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "deploy": "rm -rf .cache public && gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "rimraf .cache public && gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",

@@ -3,10 +3,11 @@
     <h2>MISC Website</h2>
 
 ![landing-page-preview](./landing-page.png)
+
 </div>
 
-
 #### Purposes:
+
 - Expand the club's brand image
 - Provide information about the club and how to join
 - Provide information about all MISC events
@@ -116,7 +117,7 @@ It might take a while to build (because of all the images).
 
     7. **`styles`**: Contains [SASS](https://sass-lang.com/) files as well as standard CSS files. These files need to be imported by the component/template/page that uses them. E.g. at the top of the `blog-template.js` file, there is an `import '../styles/blog.sass'` statement.
 
-4. **`content/gallery`**: This folder contains all the club pictures loaded into the gallery page. Add new pictures here.
+4.  **`content/gallery`**: This folder contains all the club pictures loaded into the gallery page. Add new pictures here.
 
 5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser. This does not do a lot at the moment.
 
@@ -124,9 +125,10 @@ It might take a while to build (because of all the images).
 
 7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process. Current usage of this file includes building pages from the markdown files in the `posts` directory.
 
-## 👨‍💻  Contributors
+## 👨‍💻 Contributors
 
-- Main contributor and maintainer - [Joseph Surin](https://github.com/josephsurin) (joseph#8210 on Discord)
+- Current maintainer - [Kaif Ahsan](https://github.com/verbal-noun) & [Kushal Jaiswal](https://github.com/kudy01)
+- Main contributor - [Joseph Surin](https://github.com/josephsurin) (joseph#8210 on Discord)
 - Gallery Page - [Asil Mian](https://github.com/asilmian)
 - MISC Logo Design - [Shevon Mendis](https://bookofshevon.com/)
 
