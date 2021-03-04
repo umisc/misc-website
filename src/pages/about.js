@@ -37,19 +37,21 @@ const AboutPage = () => {
                     <h1>Our Committee</h1>
                     <p> Information about our current and past committees can be found <Link to="/committee">here.</Link></p>
                     <h1>Our Sponsors</h1>
+                <div className="carousel-content">
                     <center>
                         <Carousel
                               ssr
-                              itemClass="image-item"
+                              //itemClass="image-item"
                               responsive={responsive}
                             >
                           {sponsersInfo.slice(0, sponsersInfo.length).map(sponserInfo => {
                             return (
-                              <a href={sponserInfo.href}><img alt={sponserInfo.name} src={sponserInfo.image} style={{ width: "100%", height: "100%" }}/></a>
+                              <a href={sponserInfo.href}><img alt={sponserInfo.name} src={sponserInfo.image} style={{ width: "70%", height: "100%" }}/></a>
                             );
                           })}
                         </Carousel>
                     </center>
+                </div>
                 </div>
             </div>
         </Layout>

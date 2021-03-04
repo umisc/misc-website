@@ -1,8 +1,13 @@
 import atlassian_logo from '../images/atlassian-logo.png'
-import cybersecpeople_logo from '../images/cybersecpeople-logo.png'
-import dronsec_logo from '../images/dronesec-logo.jpg'
-import kaspersky_logo from '../images/kaspersky-logo.jpg'
+import cybersecpeople_logo from '../images/cybersec_people-logo_on_black.png'
+import dronesec_logo from '../images/dronesec-logo-transparent.png'
+import kaspersky_logo from '../images/kaspersky-logo.png'
 import pentesterlab_logo from '../images/pentesterlab-logo.jpg'
+import commbank_logo from '../images/CommBank-Logo.png'
+import optiver_logo from '../images/optiver-logo.png'
+import accenture_logo from '../images/accenture-logo.png'
+import puresecurity_logo from '../images/Pure Security - Black.jpg'
+
 
 export const sponsersInfo = [
   {
@@ -17,7 +22,7 @@ export const sponsersInfo = [
   },
   {
   	name: "Dronsec Logo",
-  	image: dronsec_logo,
+  	image: dronesec_logo,
   	href: "https://dronesec.com/"
   },
   {
@@ -32,12 +37,22 @@ export const sponsersInfo = [
   },
   {
   	name: "CommBank Logo",
-  	image: "https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+  	image: commbank_logo,
   	href: "https://www.commbank.com.au/"
   },
   {
   	name: "Optiver Logo",
-  	image: "https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+  	image: optiver_logo,
   	href: "https://www.optiver.com/"
+  },
+  {
+    name: "Accenture Logo",
+    image: accenture_logo,
+    href: "https://www.accenture.com/au-en"
+  },
+  {
+    name: "Pure Security Logo",
+    image: puresecurity_logo,
+    href: "https://pure.security/"
   },
 ];
