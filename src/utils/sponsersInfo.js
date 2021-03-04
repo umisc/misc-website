@@ -1,10 +1,10 @@
-import atlassian_logo from '../images/atlassian-logo.png'
+import atlassian_logo from '../images/Atlassian Logo solid.png'
 import cybersecpeople_logo from '../images/cybersec_people-logo_on_black.png'
 import dronesec_logo from '../images/dronesec-logo-transparent.png'
 import kaspersky_logo from '../images/kaspersky-logo.png'
 import pentesterlab_logo from '../images/pentesterlab-logo.jpg'
-import commbank_logo from '../images/CommBank-Logo.png'
-import optiver_logo from '../images/optiver-logo.png'
+import commbank_logo from '../images/comm-bank Logo solid.jpg'
+import optiver_logo from '../images/Optiver Logo solid.jpg'
 import accenture_logo from '../images/accenture-logo.png'
 import puresecurity_logo from '../images/Pure Security - Black.jpg'
 
