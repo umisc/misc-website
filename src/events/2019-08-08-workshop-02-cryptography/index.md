@@ -1,6 +1,7 @@
 ---
 path: /event/2019-08-08-workshop-02-cryptography
 title: Workshop 2- Cryptography
+eventType: Workshop
 date: 2019-08-08
 image: 7d509113.jpg
 ---

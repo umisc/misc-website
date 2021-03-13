@@ -1,6 +1,7 @@
 ---
 path: /event/2020-04-07-eleanor-mcmurtry-talk
 title: The ElGamal Cryptosystem (with Eleanor McMurtry)
+eventType: Guest Events
 date: 2020-04-07
 image: poster.png
 ---

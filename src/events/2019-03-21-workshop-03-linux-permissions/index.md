@@ -1,6 +1,7 @@
 ---
 path: /event/2019-03-21-workshop-02-linux-permissions
 title: Workshop 03 - Linux Permissions
+eventType: Workshop
 date: 2019-03-21
 image: workshop3-min.jpg
 ---

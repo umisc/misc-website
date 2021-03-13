@@ -1,6 +1,7 @@
 ---
 path: /event/2020-09-10-unrestricted-file-upload-vulnerabilities
 title: Workshop 12 - Unrestricted File Upload Vulnerabilities
+eventType: Workshop
 date: 2020-09-10
 image: 2020s2-workshop12-poster.png
 ---

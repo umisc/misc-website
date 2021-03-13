@@ -1,6 +1,7 @@
 ---
 path: /event/2019-08-15-workshop-03-sql-injections
 title: Workshop 3- SQL Injections
+eventType: Workshop
 date: 2019-08-15
 image: sql.jpg
 ---

@@ -1,6 +1,7 @@
 ---
 path: /event/2020-08-13-wargames
 title: Workshop 10 - Wargames
+eventType: Workshop
 date: 2020-08-13
 image: 2020s2-workshop10-poster.png
 ---

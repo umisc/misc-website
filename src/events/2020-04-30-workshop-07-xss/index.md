@@ -1,6 +1,7 @@
 ---
 path: /event/2020-04-30-xss
 title: Workshop 07 - Cross-Site Scripting
+eventType: Workshop
 date: 2020-04-30
 image: 2020s1-workshop07-poster.png
 ---

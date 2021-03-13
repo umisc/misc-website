@@ -1,6 +1,7 @@
 ---
 path: /event/2020-08-20-eleanor-mcmurtry-talk-3
 title: "Cryptographic Magic Tricks (with Eleanor McMurtry)"
+eventType: Guest Events
 date: 2020-08-20
 image: poster.png
 ---

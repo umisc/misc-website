@@ -1,6 +1,7 @@
 ---
 path: /event/2019-09-12-workshop-07-back-to-basics
 title: Workshop 7 - Back to Basics
+eventType: Workshop
 date: 2019-09-12
 image: normal.jpg
 ---

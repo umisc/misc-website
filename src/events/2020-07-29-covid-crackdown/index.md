@@ -1,6 +1,7 @@
 ---
 path: /event/2020-07-29-covid-crackdown
 title: COVID Crackdown (Competition)
+eventType: Special events
 date: 2020-07-29
 image: poster.png
 ---

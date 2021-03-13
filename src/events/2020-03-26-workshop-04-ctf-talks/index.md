@@ -1,6 +1,7 @@
 ---
 path: /event/2020-03-26-ctf-talks
 title: Workshop 04 - CTF Talks
+eventType: Workshop
 date: 2020-03-26
 image: 2020s1-workshop04-poster.png
 ---

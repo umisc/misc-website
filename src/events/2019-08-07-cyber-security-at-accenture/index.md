@@ -1,6 +1,7 @@
 ---
 path: /event/2019-08-07-cyber-security-at-accenture
 title: Cyber Security at Accenture
+eventType: Guest Events
 date: 2019-08-07
 image: accenture-01.jpg
 ---

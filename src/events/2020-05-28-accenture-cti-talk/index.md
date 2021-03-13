@@ -1,6 +1,7 @@
 ---
 path: /event/2020-05-28-accenture-cti-talk
 title: Cyber Threat Intelligence (with Accenture Security)
+eventType: Guest Events
 date: 2020-05-28
 image: poster.png
 ---

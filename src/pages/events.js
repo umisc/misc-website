@@ -8,6 +8,7 @@ import '../styles/events.sass'
 
 const EventsPage = ({ data }) => {
     const { edges: events } = data.allMarkdownRemark
+    const categories = [ "Workshops", "Guest Events", "Special Events" ]
     const past_events = events.filter(({ node: e }) => before_today(e.frontmatter.date))
     const curr_events = events.filter(({node: e}) => !before_today(e.frontmatter.date))
     return (
@@ -21,9 +22,30 @@ const EventsPage = ({ data }) => {
                 </div>
                 }
                 <h1>Past Events</h1>
-                <div className="events-items-container">
-                    {past_events.map(({ node: e }) => EventsPageItem(e.frontmatter))}
-                </div>
+                    <h2 className="events-subheading">Special Events</h2>
+                    <div className="events-items-container">
+                    {
+                        past_events.map(({ node: e }) => {
+                        return e.frontmatter.eventType === "Special events" && EventsPageItem(e.frontmatter)
+                        })
+                    } 
+                    </div>
+                    <h2 className="events-subheading">Guest Events</h2>
+                    <div className="events-items-container">
+                    {
+                        past_events.map(({ node: e }) => {
+                        return e.frontmatter.eventType === "Guest Events" && EventsPageItem(e.frontmatter)
+                        })
+                    }
+                    </div>
+                    <h2 className="events-subheading">Workshops</h2>
+                    <div className="events-items-container">
+                    {
+                        past_events.map(({ node: e }) => {
+                        return e.frontmatter.eventType === "Workshop" && EventsPageItem(e.frontmatter)
+                        })
+                    } 
+                    </div>
             </div>
         </Layout>
     )
@@ -38,7 +60,7 @@ const before_today = d => {
     return prev_year || prev_month || prev_day
 }
 
-const EventsPageItem = ({ path, image: { childImageSharp: { fluid } }, title, date }) => {
+const EventsPageItem = ({ path, image: { childImageSharp: { fluid } }, title, date, eventType }) => {
     return (
         <div className="events-page-item" key={path}>
             <Link to={path}>
@@ -67,6 +89,7 @@ export const pageQuery = graphql`
                         title
                         date(formatString: "MMMM DD, YYYY")
                         path
+                        eventType
                         image {
                             childImageSharp {
                                 fluid(maxWidth: 800) {

@@ -1,6 +1,7 @@
 ---
 path: /event/2020-03-09-protocols-and-the-web
 title: Workshop 02 - Protocols & The Web
+eventType: Workshop
 date: 2020-03-09
 image: 2020s1-workshop02-poster.png
 ---

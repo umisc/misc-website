@@ -1,6 +1,7 @@
 ---
 path: /event/2019-05-23-workshop-10-ethics-in-cyber-security
 title: Workshop 10 - Ethics in Cyber Security
+eventType: Workshop
 date: 2019-05-23
 image: jj-min.jpg
 ---

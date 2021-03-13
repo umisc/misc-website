@@ -1,6 +1,7 @@
 ---
 path: /event/2019-09-19-workshop-08-reverse-engineering
 title: Workshop 8 - Reverse engineering
+eventType: Workshop
 date: 2019-09-19
 image: reverse.jpg
 ---

@@ -1,6 +1,7 @@
 ---
 path: /event/2020-04-23-web-app-security
 title: Workshop 06 - Web App Security
+eventType: Workshop
 date: 2020-04-23
 image: 2020s1-workshop06-poster.png
 ---

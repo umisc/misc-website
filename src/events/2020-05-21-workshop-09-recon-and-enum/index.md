@@ -1,6 +1,7 @@
 ---
 path: /event/2020-05-21-recon-and-enum
 title: Workshop 09 - Recon & Enum
+eventType: Workshop
 date: 2020-05-21
 image: 2020s1-workshop09-poster.png
 ---

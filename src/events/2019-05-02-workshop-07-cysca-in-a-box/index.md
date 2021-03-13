@@ -1,6 +1,7 @@
 ---
 path: /event/2019-05-02-workshop-07-cysca-in-a-box
 title: Workshop 7 - CySCA in a Box
+eventType: Workshop
 date: 2019-05-02
 image: 563c7dc9-min.jpg
 ---

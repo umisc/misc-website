@@ -1,6 +1,7 @@
 ---
 path: /event/2019-10-17-blind-sqli-injections
 title: Workshop 10 - Blind SQL Injections
+eventType: Workshop
 date: 2019-10-17
 image: 2019s2-workshop10-poster.jpg
 ---

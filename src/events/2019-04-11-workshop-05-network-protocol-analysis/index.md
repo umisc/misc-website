@@ -1,6 +1,7 @@
 ---
 path: /event/2019-04-11-workshop-05-network-protocol-analysis
 title: Workshop 5 - Network Protocol Analysis
+eventType: Workshop
 date: 2019-04-11
 image: workshop5.jpg
 ---
