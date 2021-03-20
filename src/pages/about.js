@@ -41,7 +41,6 @@ const AboutPage = () => {
                     <center>
                         <Carousel
                               ssr
-                              //itemClass="image-item"
                               responsive={responsive}
                             >
                           {sponsersInfo.slice(0, sponsersInfo.length).map(sponserInfo => {
