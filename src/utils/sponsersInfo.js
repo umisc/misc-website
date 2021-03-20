@@ -1,6 +1,6 @@
 import atlassian_logo from '../images/Atlassian Logo solid.png'
 import cybersecpeople_logo from '../images/cybersec_people-logo_on_black.png'
-import dronesec_logo from '../images/dronesec-logo-transparent.png'
+import dronesec_logo from '../images/dronesec-logo.jpg'
 import kaspersky_logo from '../images/kaspersky-logo.png'
 import pentesterlab_logo from '../images/pentesterlab-logo.jpg'
 import commbank_logo from '../images/comm-bank Logo solid.jpg'
