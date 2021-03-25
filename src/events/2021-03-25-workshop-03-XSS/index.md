@@ -22,6 +22,6 @@ Agenda of the event:
 (Common attack vectors)
 5. Useful resources
 
-Join us on Thursday (25 th March) at around 7PM-8PM (AEDT time) online at our Discard Channel https://discord.gg/xJM5u3Dj
+Join us on Thursday (25 th March) at around 7PM-8PM (AEDT time) online at our Discord Channel https://discord.gg/xJM5u3Dj
 
 We look forward to seeing you all!

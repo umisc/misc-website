@@ -12,7 +12,7 @@ image: poster.png
 
 ---
 
-Join us this week as we take a look at how the web works and have a deeper look into HTTP requests. We’ll also look into modifying the HTTP requests using some tools to get some interesting results. Lastly, using the information learned, you get to test your skills on some challenges this Thursday (18th March) at around 7PM-8PM (AEDT time) online at our Discard Channel https://discord.gg/xJM5u3Dj.
+Join us this week as we take a look at how the web works and have a deeper look into HTTP requests. We’ll also look into modifying the HTTP requests using some tools to get some interesting results. Lastly, using the information learned, you get to test your skills on some challenges this Thursday (18th March) at around 7PM-8PM (AEDT time) online at our Discord Channel https://discord.gg/xJM5u3Dj.
 
 Please sign up to our UMISC club if you haven't signed up yet here:
 https://forms.gle/7RGeuZL3scvfAigK8...
