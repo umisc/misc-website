@@ -16,14 +16,19 @@ Calling all MISC members!!
 
 This is your chance to get involved with some of the cybersecurity enthusiasts. Join us for the SGM and shape the future of MISC. Get a chance to be a part of the 2021 committee or come to support and vote for your fellow members and help us stay affiliated.
 The positions open for elections are:
+
 1. Secretary
 2. General Committee (x1)
-All nominations are to be sent to the form: https://forms.gle/Q6F9vpsXHBJCNgpj7
-(Nominations will also be accepted on the day.)
-Positions are open to ALL UniMelb students. SGM will officially start at 2:00 pm.
-Tune into Zoom from 2-3pm AEST using this link:
-https://unimelb.zoom.us/j/81772201161?pwd=MTdlZzN6ZGxsKzMwVTd3cjNsaGIvUT09&fbclid=IwAR0L94y_m0QiWvTrAtEman4RKFuFNMjr-_2vS7zjld-aHk4_JZmMq4S7Mec#success
+   All nominations are to be sent to the form: https://forms.gle/Q6F9vpsXHBJCNgpj7
+   (Nominations will also be accepted on the day.)
+   Positions are open to ALL UniMelb students. SGM will officially start at 2:00 pm.
+   Tune into Zoom from 2-3pm AEST using this link:
+   https://unimelb.zoom.us/j/81772201161?pwd=MTdlZzN6ZGxsKzMwVTd3cjNsaGIvUT09&fbclid=IwAR0L94y_m0QiWvTrAtEman4RKFuFNMjr-_2vS7zjld-aHk4_JZmMq4S7Mec#success
 
 You must be a MISC member to nominate and vote at the AGM. Membership is free for the rest of the year so be sure to sign up if you aren't already a member! https://www.umisc.info/signup
 
-We hope to see you there!
+Please find the agenda, financial report and constitution linked below:
+
+- Agenda: https://umisc.info/sgm-2021/agenda.pdf
+- Constitution (no amendments proposed): https://www.umisc.info/misc-constitution-2018aug.pdf
+  We hope to see you there!
