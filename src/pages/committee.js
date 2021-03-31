@@ -29,7 +29,7 @@ const AboutPage = () => {
                                     <td>President</td>
                                 </tr>
                                 <tr>
-                                    <td>Tate Deklerk</td>
+                                    <td>Mustafa Awni</td>
                                     <td>Secretary</td>
                                 </tr>
                                 <tr>
@@ -38,6 +38,10 @@ const AboutPage = () => {
                                 </tr>
                                 <tr>
                                     <td>Ayesha Ahmed</td>
+                                    <td>General Committee</td>
+                                </tr>
+                                <tr>
+                                    <td>Arshia Arora</td>
                                     <td>General Committee</td>
                                 </tr>
                                 <tr>
@@ -51,6 +55,10 @@ const AboutPage = () => {
                                 <tr>
                                     <td>Kushal Jaiswal</td>
                                     <td>IT Officer</td>
+                                </tr>
+                                <tr>
+                                    <td>Apuroop Chunduri</td>
+                                    <td>First Year Representative</td>
                                 </tr>
                             </tbody>
                         </table>
