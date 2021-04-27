@@ -10,7 +10,7 @@ import commbank_logo from "../images/CommBank-Logo.png";
 import optiver_logo from "../images/optiver-logo.png";
 import accenture_logo from "../images/accenture-logo.png";
 import puresecurity_logo from "../images/Pure Security Transparent.png";
-import pentesterlab_logo from "../images/pentesterlab-logo-transparent.jpg";
+import pentesterlab_logo from "../images/pentesterlab-logo-transparent.png";
 
 import "../styles/sponsers.sass";
 
