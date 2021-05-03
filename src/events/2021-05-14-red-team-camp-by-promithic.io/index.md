@@ -7,7 +7,7 @@ image: poster.png
 ---
 
 - **Date & Time:** 2021-05-14 from 12:00pm to 1:30pm
-- **Location:** TBD
+- **Location:** PAR-Alan Gilbert-G18
 - **Event Page:** [https://www.facebook.com/events/4150548258337459](https://www.facebook.com/events/4150548258337459)
 
 ---
@@ -18,4 +18,4 @@ Come enjoy some free Pizza and listen to very cool hacking stories :D
 
 Guest Speaker: Yianni Zachos, Senior Lead — Offensive Operations Date & Time: 14th May, 12 pm – 1:30 pm AEDT
 
-Location: TBD (On Campus)
+Location: PAR-Alan Gilbert-G18 (On Campus)

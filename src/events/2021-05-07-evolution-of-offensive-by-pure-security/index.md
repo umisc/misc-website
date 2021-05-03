@@ -7,7 +7,7 @@ image: poster.png
 ---
 
 - **Date & Time:** 2021-05-07 from 12:00pm to 1:00pm
-- **Location:** TBD
+- **Location:** PAR-Alan Gilbert-G18
 - **Event Page:** [https://www.facebook.com/events/1370163953357976/](https://www.facebook.com/events/1370163953357976/)
 
 ---
@@ -20,4 +20,4 @@ And yes, there will be free Pizza and Pure Security merch giveaways for the atte
 
 Guest Speaker: Arni Hardarson Head of Technical Assurance Date & Time: 7th May, 12pm – 1pm AEDT
 
-Location: TBD (On Campus)
+Location: PAR-Alan Gilbert-G18 (On Campus)
