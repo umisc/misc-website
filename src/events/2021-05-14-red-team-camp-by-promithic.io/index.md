@@ -6,7 +6,7 @@ date: 2021-05-14
 image: poster.png
 ---
 
-- **Date & Time:** 2021-05-14 from 12:00pm to 1:30pm
+- **Date & Time:** 14/05/2021 from 12:00pm to 1:30pm
 - **Location:** PAR-Alan Gilbert-G18
 - **Event Page:** [https://www.facebook.com/events/4150548258337459](https://www.facebook.com/events/4150548258337459)
 

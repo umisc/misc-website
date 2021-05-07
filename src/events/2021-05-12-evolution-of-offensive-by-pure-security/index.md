@@ -1,13 +1,13 @@
 ---
-path: /event/2021-05-07-evolution-of-offensive-by-pure-security
+path: /event/2021-05-12-evolution-of-offensive-by-pure-security
 title: Evolution of Offensive by Pure Security
 eventType: Special events
-date: 2021-05-07
+date: 2021-05-12
 image: poster.png
 ---
 
-- **Date & Time:** 2021-05-07 from 12:00pm to 1:00pm
-- **Location:** PAR-Alan Gilbert-G18
+- **Date & Time:** 12/05/2021 from 12:00pm to 1:00pm
+- **Location:** PAR-Babel-305 (Chisholm Theatre)
 - **Event Page:** [https://www.facebook.com/events/1370163953357976/](https://www.facebook.com/events/1370163953357976/)
 
 ---
@@ -18,6 +18,6 @@ This will be a great opportunity for students to learn more about the industry a
 
 And yes, there will be free Pizza and Pure Security merch giveaways for the attendees. The event is open to everyone :D
 
-Guest Speaker: Arni Hardarson Head of Technical Assurance Date & Time: 7th May, 12pm – 1pm AEDT
+Guest Speaker: Arni Hardarson Head of Technical Assurance Date & Time: 12th May, 12pm – 1pm AEST
 
-Location: PAR-Alan Gilbert-G18 (On Campus)
+Location: PAR-Babel-305 (Chisholm Theatre) (On Campus)
