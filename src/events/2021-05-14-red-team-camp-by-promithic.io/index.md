@@ -12,10 +12,12 @@ image: poster.png
 
 ---
 
-Have you ever wondered how a hacker’s life is? We all know hacking involves a lot of precision and craftmanship. Building concise and deadly payload target against companies and gain access? But hacking in reality We are having a special segment Promithic.io’s Yianni Zachos who’s share first-hand experience of what’s it like to be a Red Teamer. Yianni has a long career in the security domain and some amazing stories to share.
+Tales from the Front … Red Team Ops and Adversarial Simulations
+An anecdotal review of real-world scenarios and training exercises from the corporate world of red teaming.
+From planning through to execution, learn about the ins and outs of conducting a successful red team in the field.
+We are having a special segment Promithic.io’s 0d4rk30 who shares the first-hand experience of what’s it like to be a Red Teamer. 0d4rk30 has a long career in the security domain and some amazing stories to share.
+Come enjoy some free Pizza 🍕and listen to very cool hacking stories 😃
+Guest Speaker: 0d4rk30, Senior Lead — Offensive Operations, Promithic.io
 
-Come enjoy some free Pizza and listen to very cool hacking stories :D
-
-Guest Speaker: Yianni Zachos, Senior Lead — Offensive Operations Date & Time: 14th May, 12 pm – 1:30 pm AEDT
-
-Location: PAR-Alan Gilbert-G18 (On Campus)
+Date & Time: 14th May, 12 pm – 1:30 pm AEDT
+Location: PAR-Alan Gilbert-121 (Theatre 3)
